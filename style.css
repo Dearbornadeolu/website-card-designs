@@ -88,8 +88,9 @@ footer a {
     margin: auto;
     margin-top: 25%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 10px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 100px 200px 150px  150px;
 }
 .conta1{
     grid-row-start: 1;
