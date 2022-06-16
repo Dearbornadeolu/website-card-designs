@@ -93,17 +93,31 @@ footer a {
 }
 .conta1{
     grid-row-start: 1;
-    grid-row-end: 4;
-    background-color: chocolate;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red;
     color: black;
 }
 .conta2{
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 4;
-    background-color:rgb(7, 118, 126) ;
+    grid-row-end: 3;
+    background-color:blue;
 }
 .conta3{
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-color: rgb(5, 81,87);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: green;
+}
+.conta4{
+    background-color: black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.conta5{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
